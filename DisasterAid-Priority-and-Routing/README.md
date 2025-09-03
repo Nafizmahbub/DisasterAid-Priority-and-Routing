@@ -34,12 +34,6 @@ You can paste from `sample_data/example_input.txt` during runtime. It contains:
 - 4 cities, 5 roads
 - Example source/destination
 
-## Bangla (বাংলা নির্দেশনা)
-- কোডটি **C++17** দিয়ে লেখা।
-- প্রথমে বন্যায় ক্ষতিগ্রস্ত লোকজনের তথ্য ইনপুট নিবে (Name, Age, Gender, City) এবং নিয়ম মেনে **Merge Sort** দিয়ে সাজাবে।
-- এরপর শহর ও রাস্তার গ্রাফ নিবে (সকল distance ≥ 0)।
-- তারপর আপনার দেয়া source → destination এর জন্য **Dijkstra**, **Bellman–Ford**, **Floyd–Warshall** এর ফলাফল দেখাবে।
-- শেষে প্রতিটি beneficiary এর শহরে যেতে কত দূরত্ব এবং কী path তা দেখাবে।
 
 ## Priority Rules Recap
 1. Children (≤ 12) → Elders (≥ 60) → Adults.
