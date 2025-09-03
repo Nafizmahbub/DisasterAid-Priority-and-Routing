@@ -1,0 +1,37 @@
+Enter number of flood-affected people to register: 3
+
+--- Person 1 ---
+Name: Ayesha
+Age: 8
+Gender (M/F): F
+Living place (city): Dhaka
+
+--- Person 2 ---
+Name: Rahim
+Age: 62
+Gender (M/F): M
+Living place (city): Chittagong
+
+--- Person 3 ---
+Name: Karima
+Age: 35
+Gender (M/F): F
+Living place (city): Khulna
+
+--- City and Road Network Setup ---
+Enter the number of cities: 4
+Enter the name of the 4 cities (one per line):
+Dhaka
+Chittagong
+Khulna
+Sylhet
+Enter the number of roads: 5
+Enter the connections (format: city1 city2 distance) on each line:
+Dhaka Chittagong 6
+Dhaka Khulna 3
+Khulna Chittagong 2
+Chittagong Sylhet 4
+Khulna Sylhet 10
+
+Enter a source city for pathfinding: Dhaka
+Enter a destination city for pathfinding: Sylhet

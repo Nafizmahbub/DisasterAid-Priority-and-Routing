@@ -1,0 +1,25 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+a.out
+*.exe
+build/
+cmake-build-*/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
